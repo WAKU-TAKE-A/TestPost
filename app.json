@@ -19,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.wakutakea.TestPost"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9eb14114-0fda-4ff5-a7e7-5a9297c5494d"
+      }
+    },
+    "plugins":[ [ "expo-build-properties", { "android": { "usesCleartextTraffic": true } } ] ]
   }
 }
